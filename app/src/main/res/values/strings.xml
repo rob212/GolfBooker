@@ -8,5 +8,6 @@
     <string name="Active">Active</string>
     <string name="memberNumberLabel">Membership number</string>
     <string name="PasswordLabel">Password</string>
+    <string name="edit_label">edit</string>
 
 </resources>

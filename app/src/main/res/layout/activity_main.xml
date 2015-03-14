@@ -55,11 +55,49 @@
 
     </LinearLayout>
 
-<DatePicker
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:datePickerMode="spinner"
-    ></DatePicker>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/startDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:minWidth="100dp"
+        android:paddingRight="20dp"
+        android:text="Date: "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_label"
+        android:onClick="showDatePickerDialog" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/startTimeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:minWidth="100dp"
+            android:paddingRight="20dp"
+            android:text="Tee off time: "/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_label"
+        android:onClick="showTimePickerDialog" />
+
+        </LinearLayout>
 
 
 </LinearLayout>
