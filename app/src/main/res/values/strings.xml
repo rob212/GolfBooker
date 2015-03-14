@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Golf Booker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="golf_booker">Golf Booker</string>
+    <string name="Active">Active</string>
+    <string name="memberNumberLabel">Membership number</string>
+    <string name="PasswordLabel">Password</string>
+
+</resources>
